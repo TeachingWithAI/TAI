@@ -1,0 +1,11 @@
+---
+layout: default
+title: Part 1: AI & Arts and Humanities
+parent: For Students
+nav_order: 1
+has_children: true
+---
+
+# Part 1: AI & Arts and Humanities (Students)
+
+Intro text for this part. Add lesson pages in this folder.
