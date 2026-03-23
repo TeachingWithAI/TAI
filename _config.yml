@@ -1,40 +1,13 @@
-# Site identity
-title: TAI with AI
-description: Teaching and learning materials for students and teachers
+title: TAI
+description: Teaching and learning materials
 remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-include-cache
 
-# Project site settings (important for links and assets)
+# Project site settings (critical for CSS/JS paths)
 url: "https://TeachingWithAI.github.io"   # ← replace USERNAME
-baseurl: "/TAI"                     # ← repo name, keep the leading slash
+baseurl: "/TAI"                     # ← repo name, leading slash required
 
-# Visuals and behavior
-logo:                               # e.g., /assets/images/logo.png (optional)
-color_scheme: light                 # or "dark"
+# Theme options
+color_scheme: dark
 search_enabled: true
-heading_anchors: true               # clickable headings
-
-# Top‑right “Aux” link(s) (optional)
-aux_links:
-  "View on GitHub":
-    - "https://github.com/TeachingWithAI/TAI"   # ← replace USERNAME
-
-aux_links_new_tab: true
-
-# Footer (optional)
-footer_content: "© {{ site.time | date: '%Y' }} {{ site.title }}"
-
-# “Edit this page” links (optional but handy)
-gh_edit_link: true
-gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/TeachingWithAI/TAI"  # ← replace USERNAME
-gh_edit_branch: "main"
-gh_edit_source: ""          # leave empty for root
-gh_edit_view_mode: "tree"   # or "edit" to go directly to the editor
-
-# Navigation (you can tweak later)
-# nav_sort: case_insensitive
-# nav_external_links:
-#   - title: Syllabus (PDF)
-#     url: "{{ '/lessons/Schedule_M1.pdf' | relative_url }}"
