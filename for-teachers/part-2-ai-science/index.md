@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Part 2: AI & Science
+title: "Part 2: AI & Science"
 parent: For Teachers
 nav_order: 2
 has_children: true
