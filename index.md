@@ -14,7 +14,9 @@ Teaching materials and resources for students and teachers.
 
 ## Quick links
 
-- [Schedule M1 (PDF)]({{ '/lessons/Schedule_M1.pdf' | relative_url }}){: .btn .btn-primary }
+- [For Students]({{ '/for-students/' | relative_url }}){: .btn .btn-primary }
+- [For Teachers]({{ '/for-teachers/' | relative_url }}){: .btn .btn-primary }
+- [About the Teaching With AI Project]({{ '/about' | relative_url }}){: .btn }
 
 ## How to use this site
 
