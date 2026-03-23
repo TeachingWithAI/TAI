@@ -1,13 +1,13 @@
-title: TAI
+title: Teaching With AI
 description: Teaching and learning materials
 remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-include-cache
 
-# Project site settings (critical for CSS/JS paths)
-url: "https://TeachingWithAI.github.io"   # ← replace USERNAME
-baseurl: "/TAI"                     # ← repo name, leading slash required
+# Project site settings 
+url: "https://teachingwithai.github.io"
+baseurl: "/TAI"
 
 # Theme options
-color_scheme: dark
+color_scheme: light
 search_enabled: true
