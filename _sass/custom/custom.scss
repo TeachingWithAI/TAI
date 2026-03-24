@@ -18,7 +18,7 @@ a { color: var(--verdigris); }
 a:hover, a:focus { color: var(--sandy); }
 
 /* Buttons */
-.btn { border-color: var(--tuscan); color: var(--tuscan); background: transparent; }
+.btn { border-color: var(--tuscan); color: var(--tuscan); background: var(--verdigris); }
 .btn:hover, .btn:focus { border-color: var(--sandy); color: var(--sandy); }
 
 .btn.btn-primary {
