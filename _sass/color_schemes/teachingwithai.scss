@@ -1,71 +1,59 @@
-/* ===== Teaching With AI brand palette ===== */
+/* ===== Teaching With AI palette (only these 5 colors) ===== */
 :root {
-  --charcoal-blue: #264653; /* deep blue/green */
-  --verdigris:     #2A9D8F; /* teal (primary accent) */
-  --tuscan-sun:    #E9C46A; /* warm yellow (secondary) */
-  --sandy-brown:   #F4A261; /* orange (hover/accent) */
-  --burnt-peach:   #E76F51; /* coral (alert/danger) */
-
-  /* Derivatives */
-  --accent:        var(--verdigris);
-  --accent-hover:  #23877C;         /* ~15% darker than Verdigris */
-  --sidebar-bg:    var(--charcoal-blue);
-  --sidebar-fg:    #E6EFF4;         /* readable light text on charcoal */
-  --sidebar-link:  #CFE6E2;         /* lighter link text in sidebar */
-  --sidebar-link-hover: #FFFFFF;
-  --body-text:     #1F2937;         /* neutral readable body text */
-  --body-bg:       #FFFFFF;         /* page background */
-  --border:        #E5E7EB;         /* subtle borders */
-  --code-bg:       #F6F8FA;         /* code/pre blocks */
+  --charcoal:  #264653; /* Charcoal Blue */
+  --verdigris: #2A9D8F; /* Verdigris (teal) */
+  --tuscan:    #E9C46A; /* Tuscan Sun (yellow) */
+  --sandy:     #F4A261; /* Sandy Brown (orange) */
+  --burnt:     #E76F51; /* Burnt Peach (coral) */
 }
 
-/* ===== Apply brand colors to Just the Docs ===== */
-
-/* Body */
-body { color: var(--body-text); background: var(--body-bg); }
+/* Base (dark theme) */
+body {
+  background: var(--charcoal);
+  color: var(--tuscan);
+}
 
 /* Links */
-a { color: var(--accent); }
-a:hover, a:focus { color: var(--sandy-brown); }
+a { color: var(--verdigris); }
+a:hover, a:focus { color: var(--sandy); }
 
 /* Buttons */
+.btn { border-color: var(--tuscan); color: var(--tuscan); background: transparent; }
+.btn:hover, .btn:focus { border-color: var(--sandy); color: var(--sandy); }
+
 .btn.btn-primary {
-  color: #fff;
-  background-color: var(--accent);
-  border-color: var(--accent);
+  background: var(--verdigris);
+  border-color: var(--verdigris);
+  color: var(--tuscan);
 }
-.btn.btn-primary:hover,
-.btn.btn-primary:focus {
-  background-color: var(--accent-hover);
-  border-color: var(--accent-hover);
+.btn.btn-primary:hover, .btn.btn-primary:focus {
+  background: var(--sandy);
+  border-color: var(--sandy);
+  color: var(--charcoal);
 }
 
-/* Secondary button using Tuscan Sun */
-.btn { border-color: var(--tuscan-sun); color: var(--charcoal-blue); }
-.btn:hover, .btn:focus { border-color: var(--sandy-brown); color: var(--charcoal-blue); }
-
-/* Labels (status chips) */
-.label { background: var(--tuscan-sun); color: #1A1A1A; }
-.label-green { background: var(--verdigris); color: #fff; }
-.label-red { background: var(--burnt-peach); color: #fff; }
+/* Labels (chips) */
+.label { background: var(--tuscan); color: var(--charcoal); }
+.label-green { background: var(--verdigris); color: var(--tuscan); }
+.label-red { background: var(--burnt); color: var(--charcoal); }
 
 /* Sidebar */
-.side-bar { background: var(--sidebar-bg); color: var(--sidebar-fg); }
-.site-title, .side-bar a { color: var(--sidebar-fg); }
-.nav-list .nav-list-link { color: var(--sidebar-link); }
-.nav-list .nav-list-link:hover { color: var(--sidebar-link-hover); }
+.side-bar { background: var(--charcoal); color: var(--tuscan); }
+.site-title, .side-bar a { color: var(--tuscan); }
+.nav-list .nav-list-link { color: var(--tuscan); }
+.nav-list .nav-list-link:hover { color: var(--sandy); }
 
-/* Active nav item highlighting (subtle Tuscan Sun underline) */
+/* Active nav item */
 .nav-list .nav-list-link.active {
-  color: #FFFFFF;
-  border-left: 2px solid var(--tuscan-sun);
+  color: var(--sandy);
+  border-left: 2px solid var(--sandy);
 }
 
-/* Page chrome */
-hr, .page-title, .main-content hr, table, th, td { border-color: var(--border); }
+/* Tables/borders */
+hr, .page-title, .main-content hr, table, th, td { border-color: var(--verdigris); }
 
 /* Code blocks */
-.highlight, pre, code { background: var(--code-bg); }
+.highlight, pre, code { background: var(--sandy); color: var(--charcoal); }
 
-/* Optional: emphasize h1/h2 underline color slightly with Verdigris */
-h1, h2 { scroll-margin-top: 1.5rem; }
+/* Headings (subtle emphasis) */
+h1, h2, h3, h4, h5, h6 { color: var(--tuscan); }
