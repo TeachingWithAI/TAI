@@ -9,5 +9,5 @@ url: "https://teachingwithai.github.io"
 baseurl: "/TAI"
 
 # Theme options
-color_scheme: tai_colors
+color_scheme: teachingwithai
 search_enabled: true
