@@ -57,3 +57,33 @@ hr, .page-title, .main-content hr, table, th, td { border-color: var(--verdigris
 
 /* Headings (subtle emphasis) */
 h1, h2, h3, h4, h5, h6 { color: var(--tuscan); }
+
+/* Banner (content-width) */
+.hero {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 1.25rem;
+}
+
+.hero > img {
+  display: block;
+  width: 100%;
+  height: clamp(180px, 30vw, 360px);
+  object-fit: cover;
+}
+
+.hero-text {
+  position: absolute;
+  inset: auto 0 0 0;       /* bottom overlay */
+  padding: 1rem 1.25rem;
+  background: linear-gradient(to top, rgba(0,0,0,0.45), rgba(0,0,0,0));
+  color: #fff;
+}
+
+.hero-text h1 {
+  margin: 0 0 .25rem 0;
+  font-size: clamp(1.25rem, 3vw, 2rem);
+}
+
+.hero-actions { margin-top: .5rem; display: flex; gap: .5rem; flex-wrap: wrap; }
