@@ -87,3 +87,15 @@ h1, h2, h3, h4, h5, h6 { color: var(--tuscan); }
 }
 
 .hero-actions { margin-top: .5rem; display: flex; gap: .5rem; flex-wrap: wrap; }
+
+/* Full-bleed trick: extend to viewport edges from within the content column */
+.hero-full {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  width: 100vw;
+  border-radius: 0; /* full-bleed typically square edges */
+}
+
+.hero-full > img {
+  height: clamp(220px, 35vw, 420px);
+}
