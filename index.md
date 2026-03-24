@@ -1,3 +1,11 @@
+
+---
+layout: default
+title: Home
+nav_order: 1
+---
+
+
 <div class="hero">
   <img src="{{ '/assets/images/giraffe_to_noise.jpg' | relative_url }}" alt="Teaching With AI banner" loading="lazy">
   <div class="hero-text">
@@ -11,13 +19,6 @@
 </div>
 
 
-
-
----
-layout: default
-title: Home
-nav_order: 1
----
 
 # Welcome to TAI
 
