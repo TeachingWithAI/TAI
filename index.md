@@ -7,7 +7,7 @@ nav_order: 1
 
 
 <div class="hero">
-  <img src="{{ '/assets/images/giraffe_to_noise.jpg' | relative_url }}" alt="Teaching With AI banner" loading="lazy">
+  <img src="{{ '/assets/images/giraffe_to_noise.png' | relative_url }}" alt="Teaching With AI banner" loading="lazy">
   <div class="hero-text">
     <h1>Teaching With AI</h1>
     <p>Learning resources for students and teachers</p>
