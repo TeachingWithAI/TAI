@@ -6,7 +6,7 @@ nav_order: 1
 ---
 
 
-<div class="hero">
+<div class="hero hero-full">
   <img src="{{ '/assets/images/giraffe_to_noise.png' | relative_url }}" alt="Teaching With AI banner" loading="lazy">
   <div class="hero-text">
     <h1>Teaching With AI</h1>
