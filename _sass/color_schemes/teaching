@@ -1,3 +1,5 @@
+scss
+
 /* ===== Teaching With AI palette (only these 5 colors) ===== */
 :root {
   --charcoal:  #264653; /* Charcoal Blue */
@@ -7,10 +9,10 @@
   --burnt:     #E76F51; /* Burnt Peach (coral) */
 }
 
-/* Base (dark theme) */
+/* Base (light theme) */
 body {
-  background: var(--charcoal);
-  color: var(--tuscan);
+  background: var(--tuscan);
+  color: var(--charcoal);
 }
 
 /* Links */
@@ -18,13 +20,13 @@ a { color: var(--verdigris); }
 a:hover, a:focus { color: var(--sandy); }
 
 /* Buttons */
-.btn { border-color: var(--tuscan); color: var(--tuscan); background: transparent; }
+.btn { border-color: var(--charcoal); color: var(--charcoal); background: transparent; }
 .btn:hover, .btn:focus { border-color: var(--sandy); color: var(--sandy); }
 
 .btn.btn-primary {
   background: var(--verdigris);
   border-color: var(--verdigris);
-  color: var(--tuscan);
+  color: var(--charcoal);
 }
 .btn.btn-primary:hover, .btn.btn-primary:focus {
   background: var(--sandy);
@@ -33,8 +35,8 @@ a:hover, a:focus { color: var(--sandy); }
 }
 
 /* Labels (chips) */
-.label { background: var(--tuscan); color: var(--charcoal); }
-.label-green { background: var(--verdigris); color: var(--tuscan); }
+.label { background: var(--sandy); color: var(--charcoal); }
+.label-green { background: var(--verdigris); color: var(--charcoal); }
 .label-red { background: var(--burnt); color: var(--charcoal); }
 
 /* Sidebar */
@@ -50,10 +52,10 @@ a:hover, a:focus { color: var(--sandy); }
 }
 
 /* Tables/borders */
-hr, .page-title, .main-content hr, table, th, td { border-color: var(--verdigris); }
+hr, .page-title, .main-content hr, table, th, td { border-color: var(--charcoal); }
 
 /* Code blocks */
-.highlight, pre, code { background: var(--sandy); color: var(--charcoal); }
+.highlight, pre, code { background: var(--verdigris); color: var(--charcoal); }
 
-/* Headings (subtle emphasis) */
-h1, h2, h3, h4, h5, h6 { color: var(--tuscan); }
+/* Headings */
+h1, h2, h3, h4, h5, h6 { color: var(--charcoal); }
