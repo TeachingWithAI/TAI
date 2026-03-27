@@ -8,4 +8,6 @@ has_children: true
 
 # Part 1: AI & Arts and Humanities (Students)
 
-Intro text for this part. Add lesson pages in this folder.
+Here you find the material for Part 1: Ai & Arts and Humanities. 
+
+
