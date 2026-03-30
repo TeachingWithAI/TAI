@@ -8,4 +8,4 @@ has_children: true
 
 # Part 3: AI & Everyday Life (Students)
 
-Intro text for this part. Add lesson pages in this folder.
+The material for this part will be added once it is finished, in the spring of 2027. 
