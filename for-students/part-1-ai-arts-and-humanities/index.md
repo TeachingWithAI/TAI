@@ -8,7 +8,7 @@ has_children: true
 
 # Part 1: AI & Arts and Humanities (Students)
 
-Here you find the material for Part 1: Ai & Arts and Humanities. 
+Here you find the material for Part 1: Ai & Arts and Humanities. Note that this material is still under development and will be tested. 
 
 {% assign pdfs = site.static_files
   | where: "extname", ".pdf"
