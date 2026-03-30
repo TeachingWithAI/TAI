@@ -8,4 +8,4 @@ has_children: true
 
 # Part 2: AI & Science (Students)
 
-Intro text for this part. Add lesson pages in this folder.
+The material for this part will be added once it is finished, in the fall of 2026. 
