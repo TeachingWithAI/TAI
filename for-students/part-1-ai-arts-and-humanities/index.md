@@ -11,5 +11,6 @@ has_children: true
 Here you find the material for Part 1: Ai & Arts and Humanities. 
 
 [Download: Literature (PDF)]({{ '/for-students/part-1-ai-arts-and-humanities/Literature.pdf' | relative_url }})
+
 [Download: History (PDF)]({{ '/for-students/part-1-ai-arts-and-humanities/History.pdf' | relative_url }})
 
