@@ -8,4 +8,15 @@ has_children: true
 
 # Part 1: AI & Arts and Humanities (Teachers)
 
-Intro text for this part. Add teacher notes, pacing guides, assessments, etc.
+Here you find supporting teaching material for the lessons that you find in the student's folder. 
+
+
+{% assign pdfs = site.static_files
+  | where: "extname", ".pdf"
+  | where_exp: "f", "f.path contains '/for-teachers/part-1-ai-arts-humanities/'" %}
+
+<ul>
+{% for f in pdfs %}
+  <li><a href="{{ f.path | relative_url }}">{{ f.name }}</a></li>
+{% endfor %}
+</ul>
