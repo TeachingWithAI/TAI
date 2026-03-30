@@ -7,7 +7,7 @@ nav_order: 1
 
 # Welcome to TAI
 
-Teaching materials and resources for students and teachers.
+This is a project funded by the Erasmus + programme of the European union, called Teaching with AI (TAI). We prepare teaching material for students and teachers, about and with the use of AI. All material on this website is still under development.  
 
 ## Quick links
 
