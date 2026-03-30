@@ -10,7 +10,12 @@ has_children: true
 
 Here you find the material for Part 1: Ai & Arts and Humanities. 
 
-[Download: Literature (PDF)]({{ '/for-students/part-1-ai-arts-and-humanities/Literature.pdf' | relative_url }})
+{% assign pdfs = site.static_files
+  | where: "extname", ".pdf"
+  | where_exp: "f", "f.path contains '/for-students/resources/'" %}
 
-[Download: History (PDF)]({{ '/for-students/part-1-ai-arts-and-humanities/History.pdf' | relative_url }})
-
+<ul>
+{% for f in pdfs %}
+  <li><a href="{{ f.path | relative_url }}">{{ f.name }}</a></li>
+{% endfor %}
+</ul>
