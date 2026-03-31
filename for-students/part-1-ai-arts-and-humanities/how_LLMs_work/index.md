@@ -3,7 +3,7 @@
 layout: default
 title: "How LLMs work"
 parent: "Part 1: AI & Arts and Humanities"
-nav_order: 1
+nav_order: 4
 has_children: true
 ---
 
