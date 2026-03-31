@@ -3,7 +3,7 @@
 layout: default
 title: "Prompting LLMs"
 parent: "Part 1: AI & Arts and Humanities"
-nav_order: 1
+nav_order: 3
 has_children: true
 ---
 
