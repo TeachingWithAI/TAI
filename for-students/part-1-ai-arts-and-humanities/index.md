@@ -10,12 +10,16 @@ has_children: true
 
 Here you find the material for Part 1: Ai & Arts and Humanities. Note that this material is still under development and will be tested. 
 
+{% assign folder = page.dir %}  {# e.g., "/for-students/part-1-ai-arts-and-humanities/" #}
 {% assign pdfs = site.static_files
   | where: "extname", ".pdf"
-  | where_exp: "f", "f.path contains '/for-students/part-1-ai-arts-and-humanities/'" %}
+  | where_exp: "f", "f.path contains folder" %}
 
 <ul>
 {% for f in pdfs %}
-  <li><a href="{{ f.path | relative_url }}">{{ f.name }}</a></li>
+  {% assign rest = f.path | remove_first: folder %}
+  {% unless rest contains '/' %}
+    <li><a href="{{ f.path | relative_url }}">{{ f.name }}</a></li>
+  {% endunless %}
 {% endfor %}
 </ul>
