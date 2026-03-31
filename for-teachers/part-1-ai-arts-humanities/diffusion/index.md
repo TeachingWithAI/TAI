@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Materials for Diffusion"
-parent: "Part 1: AI & Arts and Humanities"
+parent: "Part 1: AI & Arts and Humanities (Teachers)"
 nav_order: 2
 has_children: true
 ---
