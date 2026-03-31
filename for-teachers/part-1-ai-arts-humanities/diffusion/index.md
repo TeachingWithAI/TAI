@@ -6,7 +6,7 @@ nav_order: 2
 has_children: true
 ---
 
-Here you find the materials for the lesson on art styles and image prompting
+Here you find the supplementary teaching material on diffusion models. 
 
 {% assign pdfs = site.static_files
   | where: "extname", ".pdf"
