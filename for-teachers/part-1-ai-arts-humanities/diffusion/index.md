@@ -8,13 +8,20 @@ has_children: true
 
 Here you find the supplementary teaching material on diffusion models.
 
+{% comment %}
+Immediate subfolder buttons (one level down), Pages-compatible.
+{% endcomment %}
 {% assign folder = page.dir %}
+{% assign folder_parts = folder | split: '/' %}
+{% assign folder_len = folder_parts | size %}
+
 {%- assign dirs_concat = "" -%}
 {%- for p in site.pages -%}
   {%- if p.dir != folder and p.dir contains folder -%}
-    {%- assign rest = p.dir | remove_first: folder -%}
-    {%- assign parts = rest | split: '/' -%}
-    {%- if parts.size == 2 -%}
+    {%- assign p_parts = p.dir | split: '/' -%}
+    {%- assign p_len = p_parts | size -%}
+    {%- assign depth = p_len | minus: folder_len -%}
+    {%- if depth == 1 -%}
       {%- if p.name == 'index.md' or p.name == 'index.html' -%}
         {%- assign dirs_concat = dirs_concat | append: p.dir | append: '||' -%}
       {%- endif -%}
