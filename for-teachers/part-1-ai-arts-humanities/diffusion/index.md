@@ -19,3 +19,6 @@ The following pdf can best be printed on A3. It contains 8 different half-noisy 
   <li><a href="{{ f.path | relative_url }}">{{ f.name }}</a></li>
 {% endfor %}
 </ul>
+
+Provide sheets with these 8mm adhesive dots in colors black and white. The dots should cover the pixels in assignment one. Every student should get one sheet with black and one with white stickers.
+
