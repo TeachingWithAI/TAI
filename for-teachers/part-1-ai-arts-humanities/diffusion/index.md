@@ -8,15 +8,60 @@ has_children: true
 
 Here you find the supplementary teaching material on diffusion models.
 
+{% assign folder = page.dir %}
+{%- assign dirs_concat = "" -%}
+{%- for p in site.pages -%}
+  {%- if p.dir != folder and p.dir contains folder -%}
+    {%- assign rest = p.dir | remove_first: folder -%}
+    {%- assign parts = rest | split: '/' -%}
+    {%- if parts.size == 2 -%}
+      {%- if p.name == 'index.md' or p.name == 'index.html' -%}
+        {%- assign dirs_concat = dirs_concat | append: p.dir | append: '||' -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- assign dir_list = dirs_concat | split: '||' | uniq | sort -%}
+{%- if dir_list.size > 0 -%}
+<div class="subfolder-buttons">
+  {%- for d in dir_list -%}
+    {%- if d != "" -%}
+      {%- assign index_page = nil -%}
+      {%- for pg in site.pages -%}
+        {%- if pg.dir == d -%}
+          {%- if pg.name == 'index.md' or pg.name == 'index.html' -%}
+            {%- assign index_page = pg -%}
+            {%- break -%}
+          {%- endif -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- if index_page -%}
+        {%- assign label = index_page.title | default: d | replace: folder, '' | replace: '/', '' | replace: '-', ' ' | capitalize -%}
+        <a class="btn btn-primary" href="{{ index_page.url | relative_url }}">{{ label }}</a>
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+</div>
+{%- endif -%}
+
+
+
 The following pdf can best be printed on A3. It contains 8 different half-noisy images, with the corresponding prompt. If printed on A3, the little circular pixels are rougly 8mm in diameter, which means you can use black and white sticker marker points to cover them in Assignment 1. 
 
-{% assign pdfs = site.static_files
-  | where: "extname", ".pdf"
-  | where_exp: "f", "f.path contains '/for-teachers/part-1-ai-arts-humanities/diffusion/'" %}
 
 <ul>
-{% for f in pdfs %}
-  <li><a href="{{ f.path | relative_url }}">{{ f.name }}</a></li>
+{% for f in site.static_files %}
+  {% assign ext = f.extname | downcase %}
+  {% if ext == '.pdf' %}
+    {% assign p = f.path %}
+    {% if p contains folder %}
+      {% assign rest = p | remove_first: folder %}
+      {% unless rest contains '/' %}
+        <li><a href="{{ p | relative_url }}">{{ f.name }}</a></li>
+      {% endunless %}
+    {% endif %}
+  {% endif %}
 {% endfor %}
 </ul>
 
