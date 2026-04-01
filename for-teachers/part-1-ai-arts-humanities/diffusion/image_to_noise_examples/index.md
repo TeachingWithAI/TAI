@@ -6,7 +6,7 @@ nav_order: 1
 has_children: true
 ---
 
-Here you find the images and their transformation to noise. 
+Here you find the images and their transformation to noise. You can show these at the end of Assignment 1, to compare to the images that the students created. The idea is not that they recover this perfectly! 
 
 {% assign pngs = site.static_files
   | where: "extname", ".png"
