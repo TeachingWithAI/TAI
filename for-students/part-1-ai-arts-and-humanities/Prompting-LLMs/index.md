@@ -7,7 +7,7 @@ nav_order: 3
 has_children: true
 ---
 
-Here you find the materials for the art exhibition. 
+Here you find the materials for prompting LLMs. 
 
 {% assign pdfs = site.static_files
   | where: "extname", ".pdf"
