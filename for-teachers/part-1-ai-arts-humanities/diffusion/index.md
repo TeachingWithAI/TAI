@@ -6,7 +6,9 @@ nav_order: 2
 has_children: true
 ---
 
-Here you find the supplementary teaching material on diffusion models. 
+Here you find the supplementary teaching material on diffusion models.
+
+The following pdf can best be printed on A3. It contains 8 different half-noisy images, with the corresponding prompt. If printed on A3, the little circular pixels are rougly 8mm in diameter, which means you can use black and white sticker marker points to cover them in Assignment 1. 
 
 {% assign pdfs = site.static_files
   | where: "extname", ".pdf"
