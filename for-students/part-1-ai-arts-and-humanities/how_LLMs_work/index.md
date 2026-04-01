@@ -63,3 +63,32 @@ List only PDFs directly in this folder (exclude subfolders).
   {% endif %}
 {% endfor %}
 </ul>
+
+{% comment %}
+Links for How_LLMs_work_presentation.pptx in this folder.
+Preview uses Office Web Viewer and needs an absolute URL.
+Make sure _config.yml has:
+  url: "https://YOUR-USER.github.io"
+  baseurl: "/YOUR-REPO"   # for project pages
+{% endcomment %}
+
+{% assign file = 'How_LLMs_work_presentation.pptx' %}
+{% assign rel = page.dir | append: file %}
+
+{%- comment -%} Absolute URL for viewer {%- endcomment -%}
+{% assign abs = rel | absolute_url %}
+
+{%- comment -%} Office Web Viewer preview link {%- endcomment -%}
+{% assign preview = 'https://view.officeapps.live.com/op/view.aspx?src=' | append: abs | uri_escape %}
+
+<p>
+  <a class="btn btn-primary" href="{{ preview }}" target="_blank" rel="noopener">
+    Preview presentation (opens in new tab)
+  </a>
+</p>
+
+<p>
+  <a class="btn" href="{{ rel | relative_url }}" download>
+    Download presentation (.pptx)
+  </a>
+</p>
