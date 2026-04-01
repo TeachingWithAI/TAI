@@ -8,12 +8,12 @@ has_children: true
 
 Here you find the images and their transformation to noise. 
 
-{% assign pdfs = site.static_files
-  | where: "extname", ".pdf"
-  | where_exp: "f", "f.path contains '/for-teachers/part-1-ai-arts-humanities/diffusion/'" %}
+{% assign pngs = site.static_files
+  | where: "extname", ".png"
+  | where_exp: "f", "f.path contains '/for-teachers/part-1-ai-arts-humanities/diffusion/image_to_noise_examples/'" %}
 
 <ul>
-{% for f in pdfs %}
+{% for f in pngs %}
   <li><a href="{{ f.path | relative_url }}">{{ f.name }}</a></li>
 {% endfor %}
 </ul>
