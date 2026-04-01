@@ -75,7 +75,7 @@ The following pdf can best be printed on A3. It contains 8 different half-noisy 
 Provide sheets with these 8mm adhesive dots in colors black and white. The dots should cover the pixels in assignment one. Every student should get one sheet with black and one with white stickers.
 
 If you want to make noisy images yourself, here is a link to the colab notebook that can be used: 
-{% assign colab_url = 'https://colab.research.google.com/github/OWNER/REPO/blob/BRANCH/for-teachers/part-1-ai-arts-humanities/diffusion/Diffusion_models_teachers_material.ipynb' %}
+{% assign colab_url = 'https://colab.research.google.com/github/TeachingWithAI/TAI/blob/main/for-teachers/part-1-ai-arts-humanities/diffusion/Diffusion_models_teachers_material.ipynb' %}
 <a class="btn btn-primary" href="{{ colab_url }}" target="_blank" rel="noopener">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" style="vertical-align: middle; height: 20px;">
   Open in Colab
