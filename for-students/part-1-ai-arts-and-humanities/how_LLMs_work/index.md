@@ -9,12 +9,20 @@ has_children: true
 
 Here you find the materials for the lesson on how LLMs work. 
 
-{% assign pdfs = site.static_files
-  | where: "extname", ".pdf"
-  | where_exp: "f", "f.path contains '/for-students/part-1-ai-arts-and-humanities/how_LLMs_work/'" %}
-
+{% comment %}
+List only PDFs directly in this folder (exclude subfolders).
+{% endcomment %}
 <ul>
-{% for f in pdfs %}
-  <li><a href="{{ f.path | relative_url }}">{{ f.name }}</a></li>
+{% for f in site.static_files %}
+  {% assign ext = f.extname | downcase %}
+  {% if ext == '.pdf' %}
+    {% assign p = f.path %}
+    {% if p contains folder %}
+      {% assign rest = p | remove_first: folder %}
+      {% unless rest contains '/' %}
+        <li><a href="{{ p | relative_url }}">{{ f.name }}</a></li>
+      {% endunless %}
+    {% endif %}
+  {% endif %}
 {% endfor %}
-</ul>
+</ul>>
