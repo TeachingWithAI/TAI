@@ -10,11 +10,6 @@ has_children: true
 
 Here you find supporting teaching material for the lessons that you find in the student's folder. 
 
-{% comment %}
-List immediate subfolders (one level down) as buttons.
-Compatible with GitHub Pages (no 'push', no plugins).
-Each subfolder should have index.md or index.html with a title.
-{% endcomment %}
 {% assign folder = page.dir %}
 {%- assign dirs_concat = "" -%}
 {%- for p in site.pages -%}
@@ -42,10 +37,6 @@ Each subfolder should have index.md or index.html with a title.
 </div>
 {%- endif -%}
 
-{% comment %}
-List only PDFs directly in this folder (exclude subfolders).
-Compatible with GitHub Pages.
-{% endcomment %}
 <ul>
 {% for f in site.static_files %}
   {% assign ext = f.extname | downcase %}
