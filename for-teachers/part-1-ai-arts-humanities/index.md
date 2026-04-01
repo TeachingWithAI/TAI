@@ -10,6 +10,7 @@ has_children: true
 
 Here you find supporting teaching material for the lessons that you find in the student's folder. 
 
+
 {% assign folder = page.dir %}
 {%- assign dirs_concat = "" -%}
 {%- for p in site.pages -%}
@@ -36,6 +37,7 @@ Here you find supporting teaching material for the lessons that you find in the 
   {%- endfor -%}
 </div>
 {%- endif -%}
+
 
 <ul>
 {% for f in site.static_files %}
