@@ -11,7 +11,7 @@ Here you find the materials for the lesson on how LLMs work.
 
 {% assign pdfs = site.static_files
   | where: "extname", ".pdf"
-  | where_exp: "f", "f.path contains '/for-students/part-1-ai-arts-and-humanities/How_LLMs_work/'" %}
+  | where_exp: "f", "f.path contains '/for-students/part-1-ai-arts-and-humanities/how_LLMs_work/'" %}
 
 <ul>
 {% for f in pdfs %}
