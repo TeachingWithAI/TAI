@@ -106,3 +106,17 @@ h1, h2, h3, h4, h5, h6 { color: var(--tuscan); }
 .hero-full > img {
   height: clamp(220px, 35vw, 420px);
 }
+
+/* Stack the buttons vertically */
+.subfolder-buttons {
+  display: flex;
+  flex-direction: column; /* vertical stack */
+  gap: .5rem;             /* space between buttons */
+  margin: .5rem 0 1rem;
+}
+
+/* Optional: make each button full-width of the content area */
+.subfolder-buttons .btn {
+  display: block;   /* stack even if not using flex */
+  width: 100%;
+}
