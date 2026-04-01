@@ -8,7 +8,7 @@ has_children: true
 
 # Part 1: AI & Arts and Humanities (Teachers)
 
-Here you find supporting teaching material for the lessons that you find in the student's folder. 
+Here you find supporting teaching material for the lessons that you find in the student's folder.
 
 
 {% assign folder = page.dir %}
@@ -17,8 +17,10 @@ Here you find supporting teaching material for the lessons that you find in the 
   {%- if p.dir != folder and p.dir contains folder -%}
     {%- assign rest = p.dir | remove_first: folder -%}
     {%- assign parts = rest | split: '/' -%}
-    {%- if parts.size == 2 and (p.name == 'index.md' or p.name == 'index.html') -%}
-      {%- assign dirs_concat = dirs_concat | append: p.dir | append: '||' -%}
+    {%- if parts.size == 2 -%}
+      {%- if p.name == 'index.md' or p.name == 'index.html' -%}
+        {%- assign dirs_concat = dirs_concat | append: p.dir | append: '||' -%}
+      {%- endif -%}
     {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
@@ -28,7 +30,15 @@ Here you find supporting teaching material for the lessons that you find in the 
 <div class="subfolder-buttons">
   {%- for d in dir_list -%}
     {%- if d != "" -%}
-      {%- assign index_page = site.pages | where: "dir", d | where_exp: "pg", "pg.name == 'index.md' or pg.name == 'index.html'" | first -%}
+      {%- assign index_page = nil -%}
+      {%- for pg in site.pages -%}
+        {%- if pg.dir == d -%}
+          {%- if pg.name == 'index.md' or pg.name == 'index.html' -%}
+            {%- assign index_page = pg -%}
+            {%- break -%}
+          {%- endif -%}
+        {%- endif -%}
+      {%- endfor -%}
       {%- if index_page -%}
         {%- assign label = index_page.title | default: d | replace: folder, '' | replace: '/', '' | replace: '-', ' ' | capitalize -%}
         <a class="btn btn-primary" href="{{ index_page.url | relative_url }}">{{ label }}</a>
