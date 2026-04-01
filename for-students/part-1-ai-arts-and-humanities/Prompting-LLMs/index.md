@@ -3,8 +3,8 @@
 layout: default
 title: "Prompting LLMs"
 parent: "Part 1: AI & Arts and Humanities"
+grand_parent: "For Students"
 nav_order: 3
-has_children: true
 ---
 
 Here you find the materials for prompting LLMs. 
