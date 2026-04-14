@@ -131,3 +131,43 @@ h1, h2, h3, h4, h5, h6 { color: var(--tuscan); }
   background-position: bottom 12px center; /* keep it at the bottom */
   background-size: 120px auto;             /* set desired display size */
 }
+
+
+/* === Sidebar link colors: unify all levels and states === */
+/* Base (all levels) */
+.side-bar .nav-list .nav-list-link,
+.side-bar .nav-list .nav-list .nav-list-link {
+  color: var(--tuscan); /* normal */
+}
+
+/* Visited (prevents purple) */
+.side-bar .nav-list .nav-list-link:visited,
+.side-bar .nav-list .nav-list .nav-list-link:visited {
+  color: var(--tuscan);
+}
+
+/* Hover/Focus */
+.side-bar .nav-list .nav-list-link:hover,
+.side-bar .nav-list .nav-list-link:focus,
+.side-bar .nav-list .nav-list .nav-list-link:hover,
+.side-bar .nav-list .nav-list .nav-list-link:focus {
+  color: var(--sandy);
+}
+
+/* Active/current page */
+.side-bar .nav-list .nav-list-link.active,
+.side-bar .nav-list .nav-list-link[aria-current="page"],
+.side-bar .nav-list .nav-list .nav-list-link.active,
+.side-bar .nav-list .nav-list .nav-list-link[aria-current="page"] {
+  color: var(--sandy);
+  border-left: 2px solid var(--sandy);
+}
+
+/* Optional: the disclosure/chevron expander next to parents */
+.side-bar .nav-list .nav-list-expander {
+  color: var(--tuscan);
+}
+.side-bar .nav-list .nav-list-expander:hover,
+.side-bar .nav-list .nav-list-expander:focus {
+  color: var(--sandy);
+}
