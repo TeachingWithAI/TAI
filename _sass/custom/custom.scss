@@ -120,3 +120,14 @@ h1, h2, h3, h4, h5, h6 { color: var(--tuscan); }
   display: block;   /* stack even if not using flex */
   width: 100%;
 }
+
+
+/* Pin a logo to the bottom of the sidebar; always visible */
+.side-bar {
+  /* add space so content doesn’t overlap the logo */
+  padding-bottom: 96px; /* adjust to the logo height + spacing */
+  background-image: url("{{ '/assets/images/logos-vert.png' | relative_url }}");
+  background-repeat: no-repeat;
+  background-position: bottom 12px center; /* keep it at the bottom */
+  background-size: 120px auto;             /* set desired display size */
+}
