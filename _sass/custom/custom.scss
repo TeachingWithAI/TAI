@@ -50,19 +50,6 @@ a:hover, a:focus { color: var(--sandy); }
   border-left: 2px solid var(--sandy);
 }
 
-/* Only subfolder (second-level and deeper) sidebar links */
-.nav-list .nav-list .nav-list-link {
-color: var(--sandy); / normal color /
-}
-.nav-list .nav-list .nav-list-link:hover,
-.nav-list .nav-list .nav-list-link:focus {
-color: var(--sandy); / hover/focus color /
-}
-.nav-list .nav-list .nav-list-link.active {
-color: var(--sandy); / active/current page color /
-font-weight: 600; / optional: make it bolder */
-}
-
 /* Optional: keep hover consistent on active item */
 .nav-list .nav-list-link.active:hover,
 .nav-list .nav-list-link[aria-current="page"]:hover {
