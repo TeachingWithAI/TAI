@@ -133,43 +133,49 @@ h1, h2, h3, h4, h5, h6 { color: var(--tuscan); }
 }
 
 
-/* === Sidebar link colors: unify all levels and states === */
-/* Base (all levels) */
-.side-bar .nav-list .nav-list-link,
-.side-bar .nav-list .nav-list .nav-list-link {
-  color: var(--tuscan); /* normal */
+/* Sidebar: unify colors for all levels and states (overrides theme) */
+.side-bar .nav-list a.nav-list-link,
+.side-bar .nav-list .nav-list a.nav-list-link,
+.side-bar .nav-list .nav-list .nav-list a.nav-list-link {
+  color: var(--tuscan) !important; /* normal */
+  text-decoration: none;
 }
 
-/* Visited (prevents purple) */
-.side-bar .nav-list .nav-list-link:visited,
-.side-bar .nav-list .nav-list .nav-list-link:visited {
-  color: var(--tuscan);
+/* Visited — prevent purple */
+.side-bar .nav-list a.nav-list-link:visited,
+.side-bar .nav-list .nav-list a.nav-list-link:visited,
+.side-bar .nav-list .nav-list .nav-list a.nav-list-link:visited {
+  color: var(--tuscan) !important;
 }
 
 /* Hover/Focus */
-.side-bar .nav-list .nav-list-link:hover,
-.side-bar .nav-list .nav-list-link:focus,
-.side-bar .nav-list .nav-list .nav-list-link:hover,
-.side-bar .nav-list .nav-list .nav-list-link:focus {
-  color: var(--sandy);
+.side-bar .nav-list a.nav-list-link:hover,
+.side-bar .nav-list a.nav-list-link:focus,
+.side-bar .nav-list .nav-list a.nav-list-link:hover,
+.side-bar .nav-list .nav-list a.nav-list-link:focus,
+.side-bar .nav-list .nav-list .nav-list a.nav-list-link:hover,
+.side-bar .nav-list .nav-list .nav-list a.nav-list-link:focus {
+  color: var(--sandy) !important;
 }
 
 /* Active/current page */
-.side-bar .nav-list .nav-list-link.active,
-.side-bar .nav-list .nav-list-link[aria-current="page"],
-.side-bar .nav-list .nav-list .nav-list-link.active,
-.side-bar .nav-list .nav-list .nav-list-link[aria-current="page"] {
-  color: var(--sandy);
-  border-left: 2px solid var(--sandy);
+.side-bar .nav-list a.nav-list-link.active,
+.side-bar .nav-list a.nav-list-link[aria-current="page"],
+.side-bar .nav-list .nav-list a.nav-list-link.active,
+.side-bar .nav-list .nav-list a.nav-list-link[aria-current="page"],
+.side-bar .nav-list .nav-list .nav-list a.nav-list-link.active,
+.side-bar .nav-list .nav-list .nav-list a.nav-list-link[aria-current="page"] {
+  color: var(--sandy) !important;
+  border-left: 2px solid var(--sandy) !important;
 }
 
-/* Optional: the disclosure/chevron expander next to parents */
+/* Expander chevrons next to parents (optional) */
 .side-bar .nav-list .nav-list-expander {
-  color: var(--tuscan);
+  color: var(--tuscan) !important;
 }
 .side-bar .nav-list .nav-list-expander:hover,
 .side-bar .nav-list .nav-list-expander:focus {
-  color: var(--sandy);
+  color: var(--sandy) !important;
 }
 
-body { outline: 3px solid red !important; }
+
