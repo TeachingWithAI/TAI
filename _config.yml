@@ -11,3 +11,6 @@ baseurl: "/TAI"
 # Theme options
 # color_scheme: dark
 search_enabled: true
+
+logo: "/assets/images/logos.png"
+logo_alt: "Partner logos"
