@@ -16,5 +16,9 @@ This is a project funded by the Erasmus + programme of the European union, calle
 - [About the Teaching With AI Project]({{ '/about' | relative_url }}){: .btn }
 
 
+<p style="text-align:center;">
+  <img src="{{ '/assets/images/logos.png' | relative_url }}" alt="Partner logos" height="60">
+</p>
+
 
 _Last updated: {{ site.time | date: "%Y-%m-%d" }}_
