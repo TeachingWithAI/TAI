@@ -23,7 +23,7 @@ jobs:
 
       # This sets base_path correctly for project sites like /TAI
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       # Builds Jekyll with the same environment as GitHub Pages, including remote_theme
       - name: Build with Jekyll
