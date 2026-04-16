@@ -16,6 +16,10 @@ Here you find download links to the mp4 files that can be used as videos in the 
 </p>
 
 
+{% raw %}{% assign vids = site.static_files | where_exp: 'f', "f.path contains '/for-teachers/part-1-ai-arts-humanities/sound_effects/'" | where_exp: 'f', "f.extname == '.mp4'" %}{% endraw %} {% raw %}{% for v in vids %}{% endraw %}
+
+<p><a href="{{ {% raw %}v.path{% endraw %} | relative_url }}" download>Download {{ {% raw %}v.name{% endraw %} }}</a></p> {% raw %}{% endfor %}{% endraw %}
+
 {% comment %}
 Immediate subfolder buttons (one level down), Pages-compatible.
 {% endcomment %}
