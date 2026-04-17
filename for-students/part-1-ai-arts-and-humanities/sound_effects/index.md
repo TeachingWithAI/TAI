@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Materials for Sound Effects"
-parent: "Part 1: AI & Arts and Humanities (Teachers)"
+parent: "Part 1: AI & Arts and Humanities"
 nav_order: 3
 has_children: true
 ---
