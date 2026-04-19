@@ -22,4 +22,9 @@ Here you find download links to the mp4 files that can be used as videos in the 
   </a>
 </p>
 
-
+<p>
+  <a href="{{ '/for-teachers/part-1-ai-arts-humanities/sound_effects/Big_Buck_Bunny_Revanche_60.mp4' | relative_url }}"
+     download="Big_Buck_Bunny_Revanche_60.mp4">
+    Big Buck Bunny Revanche 60s Download video (MP4) 
+  </a>
+</p>
