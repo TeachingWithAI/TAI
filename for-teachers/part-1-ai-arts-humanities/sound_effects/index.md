@@ -8,6 +8,10 @@ has_children: true
 
 Here you find download links to the mp4 files that can be used as videos in the lesson.
 
+# Clips from Big Buck Bunny
+
+All of the following clips are from ‘Big Buck Bunny’ (2008) by Blender Foundation, licensed CC BY 3.0 ([Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/)). Source: [https://archive.org/details/BigBuckBunny_124](https://archive.org/details/BigBuckBunny_124). Edited by TeachingWithAI: trimmed to shorter clips (except for the Full version), original audio removed.”
+
 <p>
   <a href="{{ '/for-teachers/part-1-ai-arts-humanities/sound_effects/Big_Buck_Bunny_apple_30.mp4' | relative_url }}"
      download="Big_Buck_Bunny_apple_30.mp4">
@@ -43,7 +47,10 @@ Here you find download links to the mp4 files that can be used as videos in the 
   </a>
 </p>
 
-All clips above are from ‘Big Buck Bunny’ (2008) by Blender Foundation, licensed CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Source: https://archive.org/details/BigBuckBunny_124. Edited by TeachingWithAI: trimmed to shorter clips, original audio removed.”
+
+# Clips from Sintel
+
+All of the following clips are from ‘Sintel (2010) by Blender Foundation, licensed CC BY 4.0 ([Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/)). Source: [https://archive.org/download/sintel-open-movie-by-blender]([https://archive.org/details/BigBuckBunny_124](https://archive.org/download/sintel-open-movie-by-blender)). Edited by TeachingWithAI: trimmed to shorter clips, original audio removed.”
 
 
 <p>
@@ -53,12 +60,20 @@ All clips above are from ‘Big Buck Bunny’ (2008) by Blender Foundation, lice
   </a>
 </p>
 
+# Spring (Full)
+
+'Spring’ (2019) by Blender Studio, licensed CC BY 4.0 [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/). Source: [https://archive.org/details/SPRING_blender_open_movie](https://archive.org/details/SPRING_blender_open_movie). 
+
 <p>
   <a href="{{ '/for-teachers/part-1-ai-arts-humanities/sound_effects/Spring_Blender_Full.mp4' | relative_url }}"
      download="Spring_Blender_Full.mp4">
     Spring Blender Full (without sound) Download video (MP4) 
   </a>
 </p>
+
+# Hero (Full)
+
+'Hero' (2018) by Blender Studio, licensed CC BY 4.0 [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/). Source: [https://archive.org/download/hero_20260106](https://archive.org/download/hero_20260106). 
 
 <p>
   <a href="{{ '/for-teachers/part-1-ai-arts-humanities/sound_effects/Hero_Blender_Full.mp4' | relative_url }}"
