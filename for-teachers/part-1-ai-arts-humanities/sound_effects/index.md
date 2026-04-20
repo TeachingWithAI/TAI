@@ -52,18 +52,10 @@ All of the following clips are from ‘Big Buck Bunny’ (2008) by Blender Found
 
 All of the following clips are from ‘Sintel (2010) by Blender Foundation, licensed CC BY 4.0 ([Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/)). Source: [https://archive.org/download/sintel-open-movie-by-blender]([https://archive.org/details/BigBuckBunny_124](https://archive.org/download/sintel-open-movie-by-blender)). Edited by TeachingWithAI: trimmed to shorter clips, original audio removed.”
 
-
 <p>
-  <a href="{{ '/for-teachers/part-1-ai-arts-humanities/sound_effects/Sintel_chase_30.mp4' | relative_url }}"
-     download="Sintel_chase_30.mp4">
-    Sintel Chase 30 s Download video (MP4) 
-  </a>
-</p>
-
-<p>
-  <a href="{{ '/for-teachers/part-1-ai-arts-humanities/sound_effects/Sintel_finding_animal_60.mp4' | relative_url }}"
-     download="Sintel_finding_animal_60.mp4">
-    Sintel Finding Animal 60 s Download video (MP4) 
+  <a href="{{ '/for-teachers/part-1-ai-arts-humanities/sound_effects/Sintel_opening_fight_60.mp4' | relative_url }}"
+     download="Sintel_opening_fight_60.mp4">
+    Sintel Opening Fight 60 s Download video (MP4) 
   </a>
 </p>
 
@@ -75,9 +67,24 @@ All of the following clips are from ‘Sintel (2010) by Blender Foundation, lice
 </p>
 
 <p>
-  <a href="{{ '/for-teachers/part-1-ai-arts-humanities/sound_effects/Sintel_opening_fight_60.mp4' | relative_url }}"
-     download="Sintel_opening_fight_60.mp4">
-    Sintel Opening Fight 60 s Download video (MP4) 
+  <a href="{{ '/for-teachers/part-1-ai-arts-humanities/sound_effects/Sintel_finding_animal_60.mp4' | relative_url }}"
+     download="Sintel_finding_animal_60.mp4">
+    Sintel Finding Animal 60 s Download video (MP4) 
+  </a>
+</p>
+
+<p>
+  <a href="{{ '/for-teachers/part-1-ai-arts-humanities/sound_effects/Sintel_chase_30.mp4' | relative_url }}"
+     download="Sintel_chase_30.mp4">
+    Sintel Chase 30 s Download video (MP4) 
+  </a>
+</p>
+
+
+<p>
+  <a href="{{ '/for-teachers/part-1-ai-arts-humanities/sound_effects/sintel_captured_60.mp4' | relative_url }}"
+     download="sintel_captured_60.mp4">
+    Sintel Captured 60 s Download video (MP4) 
   </a>
 </p>
 
