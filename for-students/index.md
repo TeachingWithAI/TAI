@@ -17,3 +17,10 @@ Explore the parts below:
 <p style="text-align:center;">
   <img src="{{ '/assets/images/logos.png' | relative_url }}" alt="Partner logos" height="60">
 </p>
+
+
+Links to the feedback forms: 
+- Monday: [https://forms.gle/vHWnuYSaMZK7kkJ47](https://forms.gle/vHWnuYSaMZK7kkJ47)
+- Tuesday: [https://forms.gle/bH7fn1Wjs8P5E3CW9](https://forms.gle/bH7fn1Wjs8P5E3CW9)
+- Wednesday: []()
+- Thursday: []()
