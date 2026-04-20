@@ -60,6 +60,27 @@ All of the following clips are from ‘Sintel (2010) by Blender Foundation, lice
   </a>
 </p>
 
+<p>
+  <a href="{{ '/for-teachers/part-1-ai-arts-humanities/sound_effects/Sintel_finding_animal_60.mp4' | relative_url }}"
+     download="Sintel_finding_animal_60.mp4">
+    Sintel Finding Animal 60 s Download video (MP4) 
+  </a>
+</p>
+
+<p>
+  <a href="{{ '/for-teachers/part-1-ai-arts-humanities/sound_effects/Sintel_soup_50.mp4' | relative_url }}"
+     download="Sintel_soup_50.mp4">
+    Sintel Soup 50 s Download video (MP4) 
+  </a>
+</p>
+
+<p>
+  <a href="{{ '/for-teachers/part-1-ai-arts-humanities/sound_effects/Sintel_opening_fight_60.mp4' | relative_url }}"
+     download="Sintel_opening_fight_60.mp4">
+    Sintel Opening Fight 60 s Download video (MP4) 
+  </a>
+</p>
+
 # Spring (Full)
 
 'Spring’ (2019) by Blender Studio, licensed CC BY 4.0 [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/). Source: [https://archive.org/details/SPRING_blender_open_movie](https://archive.org/details/SPRING_blender_open_movie). 
