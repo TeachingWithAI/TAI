@@ -6,6 +6,13 @@ nav_order: 3
 has_children: true
 ---
 
+This is the pdf to the lesson about sound effects: 
+<p>
+  <a href="{{ '/for-students/part-1-ai-arts-humanities/Sound_generation.pdf' | relative_url }}"
+     download="Sound_generation.pdf">
+    Sound generation (pdf) 
+  </a>
+</p>
 
 Here you find download links to the mp4 files that can be used as videos in the lesson.
 
