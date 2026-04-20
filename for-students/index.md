@@ -20,7 +20,7 @@ Explore the parts below:
 
 
 Links to the feedback forms: 
-- Monday: [https://forms.gle/vHWnuYSaMZK7kkJ47](https://forms.gle/vHWnuYSaMZK7kkJ47)
-- Tuesday: [https://forms.gle/bH7fn1Wjs8P5E3CW9](https://forms.gle/bH7fn1Wjs8P5E3CW9)
-- Wednesday: []()
-- Thursday: []()
+- [Monday](https://forms.gle/vHWnuYSaMZK7kkJ47)
+- [Tuesday](https://forms.gle/bH7fn1Wjs8P5E3CW9)
+- [Wednesday](https://forms.gle/8evpbs2T7EfrJHkS6)
+- [Thursday](https://forms.gle/WFed9ne7AsBt8oyV8)
