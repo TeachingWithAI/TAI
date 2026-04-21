@@ -15,6 +15,7 @@ Explore the parts below:
 
 
 # Hand in your worksheets with your answers [here](https://universe.uibk.ac.at/s/HjWMnQJHQ9Hf7bY)! 
+When you hand it in: please give your pdf clear name and put it in the correct folder (e.g. Art_styles_group_Emma.pdf). 
 
 
 <p style="text-align:center;">
