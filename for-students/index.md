@@ -14,6 +14,9 @@ Explore the parts below:
 - [Part 3: AI & Everyday Life]({{ '/for-students/part-3-ai-everyday-life/' | relative_url }})
 
 
+# Hand in your worksheets with your answers [here](https://universe.uibk.ac.at/s/HjWMnQJHQ9Hf7bY)! 
+
+
 <p style="text-align:center;">
   <img src="{{ '/assets/images/logos.png' | relative_url }}" alt="Partner logos" height="60">
 </p>
